@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sample-live",
+    "name": "Sample Live Taiwan",
+    "official_url": "https://example.org/organizers/sample-live"
+  },
+  {
+    "id": "island-stage",
+    "name": "Island Stage",
+    "official_url": "https://example.org/organizers/island-stage"
+  },
+  {
+    "id": "north-sound",
+    "name": "North Sound",
+    "official_url": "https://example.org/organizers/north-sound"
+  },
+  {
+    "id": "south-beat",
+    "name": "South Beat",
+    "official_url": "https://example.org/organizers/south-beat"
+  },
+  {
+    "id": "anime-link",
+    "name": "Anime Link",
+    "official_url": "https://example.org/organizers/anime-link"
+  }
+]

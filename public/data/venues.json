@@ -1,0 +1,56 @@
+[
+  {
+    "id": "taipei-arena",
+    "name": "台北小巨蛋",
+    "city": "Taipei",
+    "district": "松山區",
+    "address": "台北市松山區南京東路四段2號",
+    "capacity": 15000,
+    "official_url": "https://example.org/venues/taipei-arena"
+  },
+  {
+    "id": "zepp-new-taipei",
+    "name": "Zepp New Taipei",
+    "city": "New Taipei",
+    "district": "新莊區",
+    "address": "新北市新莊區新北大道四段3號",
+    "capacity": 2200,
+    "official_url": "https://example.org/venues/zepp-new-taipei"
+  },
+  {
+    "id": "legacy-taipei",
+    "name": "Legacy Taipei",
+    "city": "Taipei",
+    "district": "中正區",
+    "address": "台北市中正區八德路一段1號",
+    "capacity": 1000,
+    "official_url": "https://example.org/venues/legacy-taipei"
+  },
+  {
+    "id": "taipei-music-center",
+    "name": "台北流行音樂中心",
+    "city": "Taipei",
+    "district": "南港區",
+    "address": "台北市南港區市民大道八段99號",
+    "capacity": 5000,
+    "official_url": "https://example.org/venues/taipei-music-center"
+  },
+  {
+    "id": "kaohsiung-arena",
+    "name": "高雄巨蛋",
+    "city": "Kaohsiung",
+    "district": "左營區",
+    "address": "高雄市左營區博愛二路757號",
+    "capacity": 15000,
+    "official_url": "https://example.org/venues/kaohsiung-arena"
+  },
+  {
+    "id": "legacy-taichung",
+    "name": "Legacy Taichung",
+    "city": "Taichung",
+    "district": "西屯區",
+    "address": "台中市西屯區安和路117號",
+    "capacity": 1200,
+    "official_url": "https://example.org/venues/legacy-taichung"
+  }
+]

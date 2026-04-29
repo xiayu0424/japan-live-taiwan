@@ -1,0 +1,884 @@
+[
+  {
+    "id": "hikari-loop-2026-taipei",
+    "title": "Hikari Loop Spring Signal 2026 in Taipei",
+    "artist_ids": ["hikari-loop"],
+    "tour_name": "Spring Signal 2026",
+    "event_type": "concert",
+    "status": "on_sale",
+    "shows": [
+      {
+        "id": "hikari-loop-2026-taipei-0530",
+        "date": "2026-05-30",
+        "start_time": "2026-05-30T19:00:00+08:00",
+        "doors_open_time": "2026-05-30T18:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "legacy-taipei",
+        "venue_name": "Legacy Taipei",
+        "address": "台北市中正區八德路一段1號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2026-04-15T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/hikari-loop-2026-taipei",
+        "status": "on_sale",
+        "notes": "Sample data for UI validation."
+      }
+    ],
+    "prices": [
+      { "label": "預售", "price": 1800, "currency": "TWD" },
+      { "label": "現場", "price": 2200, "currency": "TWD" }
+    ],
+    "organizers": ["Sample Live Taiwan"],
+    "official_url": "https://example.org/events/hikari-loop-2026-taipei",
+    "notes": "Sample event; verify real events with official sources before publishing.",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/hikari-loop-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "mikan-stage-2026-new-taipei",
+    "title": "Mikan Stage Citrus Party 2026",
+    "artist_ids": ["mikan-stage"],
+    "tour_name": "Citrus Party",
+    "event_type": "concert",
+    "status": "sale_soon",
+    "shows": [
+      {
+        "id": "mikan-stage-2026-new-taipei-0606",
+        "date": "2026-06-06",
+        "start_time": "2026-06-06T18:30:00+08:00",
+        "doors_open_time": "2026-06-06T17:30:00+08:00",
+        "city": "New Taipei",
+        "venue_id": "zepp-new-taipei",
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段3號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "tixCraft",
+        "platform_id": "tixcraft",
+        "sale_start": "2026-05-10T11:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/mikan-stage-2026-new-taipei",
+        "status": "sale_soon"
+      }
+    ],
+    "prices": [{ "label": "全區站席", "price": 2600, "currency": "TWD" }],
+    "organizers": ["Island Stage"],
+    "official_url": "https://example.org/events/mikan-stage-2026-new-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/mikan-stage-2026-new-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "ao-sora-2026-kaohsiung",
+    "title": "Ao Sora Blue Note Live in Kaohsiung",
+    "artist_ids": ["ao-sora"],
+    "event_type": "concert",
+    "status": "announced",
+    "shows": [
+      {
+        "id": "ao-sora-2026-kaohsiung-0613",
+        "date": "2026-06-13",
+        "start_time": "2026-06-13T19:30:00+08:00",
+        "doors_open_time": "2026-06-13T18:30:00+08:00",
+        "city": "Kaohsiung",
+        "venue_id": "kaohsiung-arena",
+        "venue_name": "高雄巨蛋",
+        "address": "高雄市左營區博愛二路757號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ibon",
+        "platform_id": "ibon",
+        "sale_start": "2026-05-17T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/ao-sora-2026-kaohsiung",
+        "status": "announced"
+      }
+    ],
+    "prices": [
+      { "label": "看台", "price": 1800, "currency": "TWD" },
+      { "label": "特區", "price": 4200, "currency": "TWD" }
+    ],
+    "organizers": ["South Beat"],
+    "official_url": "https://example.org/events/ao-sora-2026-kaohsiung",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/ao-sora-2026-kaohsiung",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "yume-circuit-2026-taichung",
+    "title": "Yume Circuit Midnight Relay",
+    "artist_ids": ["yume-circuit"],
+    "event_type": "live_house",
+    "status": "on_sale",
+    "shows": [
+      {
+        "id": "yume-circuit-2026-taichung-0620",
+        "date": "2026-06-20",
+        "start_time": "2026-06-20T20:00:00+08:00",
+        "doors_open_time": "2026-06-20T19:00:00+08:00",
+        "city": "Taichung",
+        "venue_id": "legacy-taichung",
+        "venue_name": "Legacy Taichung",
+        "address": "台中市西屯區安和路117號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2026-05-01T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/yume-circuit-2026-taichung",
+        "status": "on_sale"
+      }
+    ],
+    "prices": [{ "label": "預售", "price": 1600, "currency": "TWD" }],
+    "organizers": ["North Sound"],
+    "official_url": "https://example.org/events/yume-circuit-2026-taichung",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/yume-circuit-2026-taichung",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "rin-kazuki-2026-taipei",
+    "title": "Rin Kazuki Voice Theater Taipei",
+    "artist_ids": ["rin-kazuki"],
+    "event_type": "fanmeeting",
+    "status": "sale_soon",
+    "shows": [
+      {
+        "id": "rin-kazuki-2026-taipei-0627",
+        "date": "2026-06-27",
+        "start_time": "2026-06-27T17:00:00+08:00",
+        "doors_open_time": "2026-06-27T16:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-music-center",
+        "venue_name": "台北流行音樂中心",
+        "address": "台北市南港區市民大道八段99號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "lottery",
+        "platform": "OPENTIX",
+        "platform_id": "opentix",
+        "sale_start": "2026-05-20T10:00:00+08:00",
+        "sale_end": "2026-05-24T23:59:00+08:00",
+        "ticket_url": "https://example.org/tickets/rin-kazuki-2026-taipei",
+        "status": "sale_soon"
+      }
+    ],
+    "prices": [
+      { "label": "A區", "price": 3200, "currency": "TWD" },
+      { "label": "B區", "price": 2400, "currency": "TWD" }
+    ],
+    "organizers": ["Anime Link"],
+    "official_url": "https://example.org/events/rin-kazuki-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/rin-kazuki-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "neon-sakura-2026-taipei",
+    "title": "Neon Sakura City Pop Night",
+    "artist_ids": ["neon-sakura"],
+    "event_type": "concert",
+    "status": "sold_out",
+    "shows": [
+      {
+        "id": "neon-sakura-2026-taipei-0704",
+        "date": "2026-07-04",
+        "start_time": "2026-07-04T19:00:00+08:00",
+        "doors_open_time": "2026-07-04T18:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-arena",
+        "venue_name": "台北小巨蛋",
+        "address": "台北市松山區南京東路四段2號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "tixCraft",
+        "platform_id": "tixcraft",
+        "sale_start": "2026-05-03T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/neon-sakura-2026-taipei",
+        "status": "sold_out"
+      }
+    ],
+    "prices": [
+      { "label": "看台", "price": 2200, "currency": "TWD" },
+      { "label": "搖滾", "price": 5200, "currency": "TWD" }
+    ],
+    "organizers": ["Sample Live Taiwan"],
+    "official_url": "https://example.org/events/neon-sakura-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/neon-sakura-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "pixel-shrine-2026-new-taipei",
+    "title": "Pixel Shrine Anisong Assembly",
+    "artist_ids": ["pixel-shrine"],
+    "event_type": "anime_music",
+    "status": "added_show",
+    "shows": [
+      {
+        "id": "pixel-shrine-2026-new-taipei-0711",
+        "date": "2026-07-11",
+        "start_time": "2026-07-11T18:00:00+08:00",
+        "doors_open_time": "2026-07-11T17:00:00+08:00",
+        "city": "New Taipei",
+        "venue_id": "zepp-new-taipei",
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段3號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "Ticket Plus",
+        "platform_id": "ticket-plus",
+        "sale_start": "2026-05-22T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/pixel-shrine-2026-new-taipei",
+        "status": "added_show"
+      }
+    ],
+    "prices": [{ "label": "全區", "price": 2800, "currency": "TWD" }],
+    "organizers": ["Anime Link"],
+    "official_url": "https://example.org/events/pixel-shrine-2026-new-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/pixel-shrine-2026-new-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "kumo-echo-2026-taichung",
+    "title": "Kumo Echo Cloudline Tour",
+    "artist_ids": ["kumo-echo"],
+    "event_type": "live_house",
+    "status": "on_sale",
+    "shows": [
+      {
+        "id": "kumo-echo-2026-taichung-0718",
+        "date": "2026-07-18",
+        "start_time": "2026-07-18T20:00:00+08:00",
+        "doors_open_time": "2026-07-18T19:00:00+08:00",
+        "city": "Taichung",
+        "venue_id": "legacy-taichung",
+        "venue_name": "Legacy Taichung",
+        "address": "台中市西屯區安和路117號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2026-05-28T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/kumo-echo-2026-taichung",
+        "status": "on_sale"
+      }
+    ],
+    "prices": [{ "label": "預售", "price": 1500, "currency": "TWD" }],
+    "organizers": ["North Sound"],
+    "official_url": "https://example.org/events/kumo-echo-2026-taichung",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/kumo-echo-2026-taichung",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "luna-bloom-2026-kaohsiung",
+    "title": "Luna Bloom Moon Garden Live",
+    "artist_ids": ["luna-bloom"],
+    "event_type": "concert",
+    "status": "sale_soon",
+    "shows": [
+      {
+        "id": "luna-bloom-2026-kaohsiung-0725",
+        "date": "2026-07-25",
+        "start_time": "2026-07-25T19:00:00+08:00",
+        "doors_open_time": "2026-07-25T18:00:00+08:00",
+        "city": "Kaohsiung",
+        "venue_id": "kaohsiung-arena",
+        "venue_name": "高雄巨蛋",
+        "address": "高雄市左營區博愛二路757號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "presale",
+        "platform": "ibon",
+        "platform_id": "ibon",
+        "sale_start": "2026-06-01T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/luna-bloom-2026-kaohsiung",
+        "status": "sale_soon"
+      }
+    ],
+    "prices": [
+      { "label": "看台", "price": 2000, "currency": "TWD" },
+      { "label": "特區", "price": 4800, "currency": "TWD" }
+    ],
+    "organizers": ["South Beat"],
+    "official_url": "https://example.org/events/luna-bloom-2026-kaohsiung",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/luna-bloom-2026-kaohsiung",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "vocal-lattice-2026-taipei",
+    "title": "Vocal Lattice Synthetic Voices",
+    "artist_ids": ["vocal-lattice"],
+    "event_type": "anime_music",
+    "status": "announced",
+    "shows": [
+      {
+        "id": "vocal-lattice-2026-taipei-0801",
+        "date": "2026-08-01",
+        "start_time": "2026-08-01T18:30:00+08:00",
+        "doors_open_time": "2026-08-01T17:30:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-music-center",
+        "venue_name": "台北流行音樂中心",
+        "address": "台北市南港區市民大道八段99號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "OPENTIX",
+        "platform_id": "opentix",
+        "sale_start": "2026-06-08T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/vocal-lattice-2026-taipei",
+        "status": "announced"
+      }
+    ],
+    "prices": [{ "label": "全席", "price": 3600, "currency": "TWD" }],
+    "organizers": ["Anime Link"],
+    "official_url": "https://example.org/events/vocal-lattice-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/vocal-lattice-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "hikari-loop-2026-kaohsiung",
+    "title": "Hikari Loop South Signal",
+    "artist_ids": ["hikari-loop"],
+    "event_type": "concert",
+    "status": "announced",
+    "shows": [
+      {
+        "id": "hikari-loop-2026-kaohsiung-0808",
+        "date": "2026-08-08",
+        "start_time": "2026-08-08T19:00:00+08:00",
+        "doors_open_time": "2026-08-08T18:00:00+08:00",
+        "city": "Kaohsiung",
+        "venue_id": "kaohsiung-arena",
+        "venue_name": "高雄巨蛋",
+        "address": "高雄市左營區博愛二路757號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "Ticket Plus",
+        "platform_id": "ticket-plus",
+        "sale_start": "2026-06-15T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/hikari-loop-2026-kaohsiung",
+        "status": "announced"
+      }
+    ],
+    "prices": [{ "label": "一般", "price": 3000, "currency": "TWD" }],
+    "organizers": ["South Beat"],
+    "official_url": "https://example.org/events/hikari-loop-2026-kaohsiung",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/hikari-loop-2026-kaohsiung",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "mikan-stage-2026-taipei",
+    "title": "Mikan Stage Encore Sweet",
+    "artist_ids": ["mikan-stage"],
+    "event_type": "fanmeeting",
+    "status": "added_show",
+    "shows": [
+      {
+        "id": "mikan-stage-2026-taipei-0815",
+        "date": "2026-08-15",
+        "start_time": "2026-08-15T17:00:00+08:00",
+        "doors_open_time": "2026-08-15T16:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "legacy-taipei",
+        "venue_name": "Legacy Taipei",
+        "address": "台北市中正區八德路一段1號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2026-06-22T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/mikan-stage-2026-taipei",
+        "status": "added_show"
+      }
+    ],
+    "prices": [{ "label": "全席", "price": 2400, "currency": "TWD" }],
+    "organizers": ["Island Stage"],
+    "official_url": "https://example.org/events/mikan-stage-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/mikan-stage-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "ao-sora-2026-taipei",
+    "title": "Ao Sora Blue Note Taipei",
+    "artist_ids": ["ao-sora"],
+    "event_type": "concert",
+    "status": "sale_soon",
+    "shows": [
+      {
+        "id": "ao-sora-2026-taipei-0822",
+        "date": "2026-08-22",
+        "start_time": "2026-08-22T19:30:00+08:00",
+        "doors_open_time": "2026-08-22T18:30:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-arena",
+        "venue_name": "台北小巨蛋",
+        "address": "台北市松山區南京東路四段2號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "credit_card",
+        "platform": "tixCraft",
+        "platform_id": "tixcraft",
+        "sale_start": "2026-06-29T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/ao-sora-2026-taipei",
+        "status": "sale_soon"
+      }
+    ],
+    "prices": [{ "label": "一般", "price": 3800, "currency": "TWD" }],
+    "organizers": ["Sample Live Taiwan"],
+    "official_url": "https://example.org/events/ao-sora-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/ao-sora-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "yume-circuit-2026-taipei",
+    "title": "Yume Circuit Noise Garden",
+    "artist_ids": ["yume-circuit"],
+    "event_type": "live_house",
+    "status": "postponed",
+    "shows": [
+      {
+        "id": "yume-circuit-2026-taipei-0829",
+        "date": "2026-08-29",
+        "start_time": "2026-08-29T20:00:00+08:00",
+        "doors_open_time": "2026-08-29T19:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "legacy-taipei",
+        "venue_name": "Legacy Taipei",
+        "address": "台北市中正區八德路一段1號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2026-07-06T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/yume-circuit-2026-taipei",
+        "status": "postponed"
+      }
+    ],
+    "prices": [{ "label": "預售", "price": 1700, "currency": "TWD" }],
+    "organizers": ["North Sound"],
+    "official_url": "https://example.org/events/yume-circuit-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/yume-circuit-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "rin-kazuki-2026-new-taipei",
+    "title": "Rin Kazuki Reading Session",
+    "artist_ids": ["rin-kazuki"],
+    "event_type": "fanmeeting",
+    "status": "announced",
+    "shows": [
+      {
+        "id": "rin-kazuki-2026-new-taipei-0905",
+        "date": "2026-09-05",
+        "start_time": "2026-09-05T15:00:00+08:00",
+        "doors_open_time": "2026-09-05T14:00:00+08:00",
+        "city": "New Taipei",
+        "venue_id": "zepp-new-taipei",
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段3號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "lottery",
+        "platform": "OPENTIX",
+        "platform_id": "opentix",
+        "sale_start": "2026-07-13T12:00:00+08:00",
+        "sale_end": "2026-07-17T23:59:00+08:00",
+        "ticket_url": "https://example.org/tickets/rin-kazuki-2026-new-taipei",
+        "status": "announced"
+      }
+    ],
+    "prices": [{ "label": "全席", "price": 3000, "currency": "TWD" }],
+    "organizers": ["Anime Link"],
+    "official_url": "https://example.org/events/rin-kazuki-2026-new-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/rin-kazuki-2026-new-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "neon-sakura-2026-taichung",
+    "title": "Neon Sakura Afterglow",
+    "artist_ids": ["neon-sakura"],
+    "event_type": "concert",
+    "status": "on_sale",
+    "shows": [
+      {
+        "id": "neon-sakura-2026-taichung-0912",
+        "date": "2026-09-12",
+        "start_time": "2026-09-12T19:00:00+08:00",
+        "doors_open_time": "2026-09-12T18:00:00+08:00",
+        "city": "Taichung",
+        "venue_id": "legacy-taichung",
+        "venue_name": "Legacy Taichung",
+        "address": "台中市西屯區安和路117號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "Ticket Plus",
+        "platform_id": "ticket-plus",
+        "sale_start": "2026-07-20T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/neon-sakura-2026-taichung",
+        "status": "on_sale"
+      }
+    ],
+    "prices": [{ "label": "一般", "price": 2300, "currency": "TWD" }],
+    "organizers": ["Island Stage"],
+    "official_url": "https://example.org/events/neon-sakura-2026-taichung",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/neon-sakura-2026-taichung",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "pixel-shrine-2026-taipei",
+    "title": "Pixel Shrine Arcade Choir",
+    "artist_ids": ["pixel-shrine", "vocal-lattice"],
+    "event_type": "anime_music",
+    "status": "sale_soon",
+    "shows": [
+      {
+        "id": "pixel-shrine-2026-taipei-0919",
+        "date": "2026-09-19",
+        "start_time": "2026-09-19T18:00:00+08:00",
+        "doors_open_time": "2026-09-19T17:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-music-center",
+        "venue_name": "台北流行音樂中心",
+        "address": "台北市南港區市民大道八段99號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "presale",
+        "platform": "OPENTIX",
+        "platform_id": "opentix",
+        "sale_start": "2026-07-27T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/pixel-shrine-2026-taipei",
+        "status": "sale_soon"
+      }
+    ],
+    "prices": [{ "label": "全席", "price": 3900, "currency": "TWD" }],
+    "organizers": ["Anime Link"],
+    "official_url": "https://example.org/events/pixel-shrine-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/pixel-shrine-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "kumo-echo-2026-taipei",
+    "title": "Kumo Echo Autumn Feedback",
+    "artist_ids": ["kumo-echo"],
+    "event_type": "concert",
+    "status": "cancelled",
+    "shows": [
+      {
+        "id": "kumo-echo-2026-taipei-0926",
+        "date": "2026-09-26",
+        "start_time": "2026-09-26T19:00:00+08:00",
+        "doors_open_time": "2026-09-26T18:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-arena",
+        "venue_name": "台北小巨蛋",
+        "address": "台北市松山區南京東路四段2號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "tixCraft",
+        "platform_id": "tixcraft",
+        "sale_start": "2026-08-03T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/kumo-echo-2026-taipei",
+        "status": "cancelled"
+      }
+    ],
+    "prices": [{ "label": "一般", "price": 3200, "currency": "TWD" }],
+    "organizers": ["Sample Live Taiwan"],
+    "official_url": "https://example.org/events/kumo-echo-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/kumo-echo-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "luna-bloom-2026-new-taipei",
+    "title": "Luna Bloom Night Aquarium",
+    "artist_ids": ["luna-bloom"],
+    "event_type": "concert",
+    "status": "announced",
+    "shows": [
+      {
+        "id": "luna-bloom-2026-new-taipei-1003",
+        "date": "2026-10-03",
+        "start_time": "2026-10-03T19:00:00+08:00",
+        "doors_open_time": "2026-10-03T18:00:00+08:00",
+        "city": "New Taipei",
+        "venue_id": "zepp-new-taipei",
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段3號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2026-08-10T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/luna-bloom-2026-new-taipei",
+        "status": "announced"
+      }
+    ],
+    "prices": [{ "label": "全區", "price": 2500, "currency": "TWD" }],
+    "organizers": ["Island Stage"],
+    "official_url": "https://example.org/events/luna-bloom-2026-new-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/luna-bloom-2026-new-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "sample-festival-2026-taipei",
+    "title": "Sample Japan Music Festival Taipei",
+    "artist_ids": ["hikari-loop", "ao-sora", "pixel-shrine"],
+    "event_type": "festival",
+    "status": "announced",
+    "shows": [
+      {
+        "id": "sample-festival-2026-taipei-1017",
+        "date": "2026-10-17",
+        "start_time": "2026-10-17T14:00:00+08:00",
+        "doors_open_time": "2026-10-17T13:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-music-center",
+        "venue_name": "台北流行音樂中心",
+        "address": "台北市南港區市民大道八段99號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ibon",
+        "platform_id": "ibon",
+        "sale_start": "2026-08-24T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://example.org/tickets/sample-festival-2026-taipei",
+        "status": "announced"
+      }
+    ],
+    "prices": [
+      { "label": "單日票", "price": 4200, "currency": "TWD" },
+      { "label": "VIP", "price": 6800, "currency": "TWD" }
+    ],
+    "organizers": ["Sample Live Taiwan", "Anime Link"],
+    "official_url": "https://example.org/events/sample-festival-2026-taipei",
+    "sources": [
+      {
+        "type": "other",
+        "name": "Sample source",
+        "url": "https://example.org/sources/sample-festival-2026-taipei",
+        "retrieved_at": "2026-04-29T12:00:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:00:00+08:00",
+    "updated_at": "2026-04-29T12:00:00+08:00"
+  }
+]

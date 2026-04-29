@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hikari-loop",
+    "name": "Hikari Loop",
+    "name_ja": "ヒカリループ",
+    "aliases": ["Hikari Loop"],
+    "country": "Japan",
+    "artist_type": "band",
+    "official_url": "https://example.org/artists/hikari-loop"
+  },
+  {
+    "id": "mikan-stage",
+    "name": "Mikan Stage",
+    "name_ja": "みかんステージ",
+    "aliases": ["Mikan Stage"],
+    "country": "Japan",
+    "artist_type": "idol_group",
+    "official_url": "https://example.org/artists/mikan-stage"
+  },
+  {
+    "id": "ao-sora",
+    "name": "Ao Sora",
+    "name_ja": "蒼ソラ",
+    "aliases": ["Ao Sora"],
+    "country": "Japan",
+    "artist_type": "singer",
+    "official_url": "https://example.org/artists/ao-sora"
+  },
+  {
+    "id": "yume-circuit",
+    "name": "Yume Circuit",
+    "name_ja": "ユメサーキット",
+    "aliases": ["Yume Circuit"],
+    "country": "Japan",
+    "artist_type": "jrock",
+    "official_url": "https://example.org/artists/yume-circuit"
+  },
+  {
+    "id": "rin-kazuki",
+    "name": "Rin Kazuki",
+    "name_ja": "一木凛",
+    "aliases": ["Rin Kazuki"],
+    "country": "Japan",
+    "artist_type": "voice_actor",
+    "official_url": "https://example.org/artists/rin-kazuki"
+  },
+  {
+    "id": "neon-sakura",
+    "name": "Neon Sakura",
+    "name_ja": "ネオンサクラ",
+    "aliases": ["Neon Sakura"],
+    "country": "Japan",
+    "artist_type": "jpop",
+    "official_url": "https://example.org/artists/neon-sakura"
+  },
+  {
+    "id": "pixel-shrine",
+    "name": "Pixel Shrine",
+    "name_ja": "ピクセル神社",
+    "aliases": ["Pixel Shrine"],
+    "country": "Japan",
+    "artist_type": "anisong",
+    "official_url": "https://example.org/artists/pixel-shrine"
+  },
+  {
+    "id": "kumo-echo",
+    "name": "Kumo Echo",
+    "name_ja": "雲エコー",
+    "aliases": ["Kumo Echo"],
+    "country": "Japan",
+    "artist_type": "band",
+    "official_url": "https://example.org/artists/kumo-echo"
+  },
+  {
+    "id": "luna-bloom",
+    "name": "Luna Bloom",
+    "name_ja": "ルナブルーム",
+    "aliases": ["Luna Bloom"],
+    "country": "Japan",
+    "artist_type": "singer",
+    "official_url": "https://example.org/artists/luna-bloom"
+  },
+  {
+    "id": "vocal-lattice",
+    "name": "Vocal Lattice",
+    "name_ja": "ボーカルラティス",
+    "aliases": ["Vocal Lattice"],
+    "country": "Japan",
+    "artist_type": "vocaloid",
+    "official_url": "https://example.org/artists/vocal-lattice"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "kktix",
+    "name": "KKTIX",
+    "official_url": "https://example.org/platforms/kktix"
+  },
+  {
+    "id": "tixcraft",
+    "name": "tixCraft",
+    "official_url": "https://example.org/platforms/tixcraft"
+  },
+  {
+    "id": "ibon",
+    "name": "ibon",
+    "official_url": "https://example.org/platforms/ibon"
+  },
+  {
+    "id": "opentix",
+    "name": "OPENTIX",
+    "official_url": "https://example.org/platforms/opentix"
+  },
+  {
+    "id": "ticket-plus",
+    "name": "Ticket Plus",
+    "official_url": "https://example.org/platforms/ticket-plus"
+  }
+]
