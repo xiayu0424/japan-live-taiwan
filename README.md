@@ -13,6 +13,7 @@
 - 日曆頁：切換演出日與售票日。
 - 統計頁：每月演出、平台分布、城市分布、場館排名與藝人類型比例。
 - 資料驗證：使用 Zod 檢查 JSON 格式與跨檔案 ID 關聯。
+- Crawler 候選流程：使用 uv 管理 Python pipeline，先產生可人工審核的候選活動。
 
 ## Tech Stack
 
@@ -24,6 +25,8 @@
 - Recharts
 - Zod
 - Vitest
+- Python + uv
+- Pydantic + RapidFuzz
 - Husky + commitlint
 
 ## Project Structure
@@ -35,19 +38,29 @@ src/lib/               data loading, schema, date, statistics, event utilities
 src/types/             TypeScript domain types
 public/data/           static JSON catalog
 scripts/validate-data.ts
+scripts/crawlers/      crawler implementations
+scripts/crawler_utils/ crawler schemas, matching, dedupe, IO helpers
+scripts/configs/       crawler source configuration
 .github/workflows/     GitHub Pages deployment
 ```
 
 ## Getting Started
 
-This project uses Node.js 24. On Windows PowerShell, use `npm.cmd` if direct `npm` execution is blocked by execution policy.
+This project uses Node.js 24 and Python managed through `uv`. On Windows PowerShell, use `npm.cmd` if direct `npm` execution is blocked by execution policy.
 
 ```bash
 npm install
+python -m uv sync
 npm run dev
 ```
 
 Open the local URL printed by Next.js, usually `http://localhost:3000`.
+
+If `uv` is not available, install it first:
+
+```bash
+python -m pip install --user uv
+```
 
 ## Available Scripts
 
@@ -57,7 +70,10 @@ npm run build          # Build static export into out/
 npm run lint           # Run ESLint
 npm run typecheck      # Run TypeScript checks
 npm test               # Run Vitest tests
+npm run test:crawler   # Run Python crawler unit tests through uv
 npm run format:check   # Check Prettier formatting
+npm run crawl:events   # Generate crawler candidates and report
+npm run validate:crawler # Validate crawler output JSON files
 npm run validate:data  # Validate JSON catalog and references
 ```
 
@@ -70,6 +86,9 @@ Edit static data under `public/data/`:
 - `venues.json`
 - `platforms.json`
 - `organizers.json`
+- `candidates.json`
+- `change_requests.json`
+- `crawler_report.json`
 
 Every event must include at least one source URL. Before committing data changes, run:
 
@@ -78,6 +97,38 @@ npm run validate:data
 ```
 
 Do not publish rumors or unofficial scraped personal data. Use official ticketing, organizer, artist official, news, or social sources that users can verify.
+
+## Crawler Pipeline
+
+The crawler is intentionally review-first. It must not modify `events.json` directly or publish new events to the frontend automatically.
+
+Current crawler milestone:
+
+- `scripts/crawlers/mock.py` emits deterministic mock candidates.
+- `scripts/crawler_utils/match_artist.py` matches candidate titles against `artists.json` aliases.
+- `scripts/crawler_utils/dedupe.py` marks likely duplicates against existing `events.json`.
+- `scripts/crawler_utils/schemas.py` validates crawler outputs with Pydantic.
+
+Run the pipeline:
+
+```bash
+npm run crawl:events
+npm run validate:crawler
+npm run test:crawler
+```
+
+Generated files:
+
+- `public/data/candidates.json`: pending candidate events for manual review.
+- `public/data/change_requests.json`: pending change requests; currently empty in M1.
+- `public/data/crawler_report.json`: source status, candidate counts, and errors.
+
+Crawler rules:
+
+- Do not login to ticketing platforms.
+- Do not queue, buy tickets, fill forms, or bypass CAPTCHA.
+- Do not high-frequency refresh ticketing pages.
+- Review every candidate manually before merging it into `events.json`.
 
 ## Deployment
 
