@@ -1,0 +1,176 @@
+[
+  {
+    "candidate_id": "mock-2026-06-19-lisa-live-is-smile-always-15-in-taipei",
+    "source_platform": "mock",
+    "source_url": "https://example.org/mock/lisa-2026-taipei",
+    "title": "LiSA LiVE is Smile Always～15～ in Taipei",
+    "raw_title": "LiSA LiVE is Smile Always～15～ in Taipei",
+    "matched_artist_ids": ["lisa"],
+    "matched_artist_names": ["LiSA"],
+    "match_confidence": 100.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-19 19:00",
+        "date": "2026-06-19",
+        "start_time": "2026-06-19T19:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "台北小巨蛋",
+        "address": null
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "Mock",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://example.org/mock/lisa-2026-taipei",
+        "status": "unknown",
+        "raw_sale_text": null
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 5280,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["Mock Source"],
+    "sources": [
+      {
+        "type": "other",
+        "name": "Mock crawler",
+        "url": "https://example.org/mock/lisa-2026-taipei",
+        "retrieved_at": "2026-04-29T18:19:34+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "mock",
+      "retrieved_at": "2026-04-29T18:19:34+08:00",
+      "raw_hash": "sha256-bcb7b0d856a41672ba74f74beb0642fd60d065f738da3473f7823ff104a6f6cc",
+      "is_duplicate": true,
+      "duplicate_event_id": "lisa-live-is-smile-always-15-2026-taipei",
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "mock-2026-11-07-hikari-loop-summer-signal-2026-in-taipei",
+    "source_platform": "mock",
+    "source_url": "https://example.org/mock/hikari-loop-2026-summer",
+    "title": "Hikari Loop Summer Signal 2026 in Taipei",
+    "raw_title": "Hikari Loop Summer Signal 2026 in Taipei",
+    "matched_artist_ids": ["hikari-loop"],
+    "matched_artist_names": ["Hikari Loop"],
+    "match_confidence": 100.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-11-07 19:00",
+        "date": "2026-11-07",
+        "start_time": "2026-11-07T19:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "Legacy Taipei",
+        "address": null
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "Mock",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://example.org/mock/hikari-loop-2026-summer",
+        "status": "unknown",
+        "raw_sale_text": null
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 2400,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["Mock Source"],
+    "sources": [
+      {
+        "type": "other",
+        "name": "Mock crawler",
+        "url": "https://example.org/mock/hikari-loop-2026-summer",
+        "retrieved_at": "2026-04-29T18:19:34+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "mock",
+      "retrieved_at": "2026-04-29T18:19:34+08:00",
+      "raw_hash": "sha256-5867f6ef67c7dc003b0c8f07dacd00cea0ebc4c10309a311355415c06de4e0e7",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "mock-2026-12-12-折坂悠太-acoustic-night-taipei",
+    "source_platform": "mock",
+    "source_url": "https://example.org/mock/yuta-orisaka-2026-acoustic",
+    "title": "折坂悠太 Acoustic Night Taipei",
+    "raw_title": "折坂悠太 Acoustic Night Taipei",
+    "matched_artist_ids": ["yuta-orisaka"],
+    "matched_artist_names": ["折坂悠太"],
+    "match_confidence": 100.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-12-12 20:00",
+        "date": "2026-12-12",
+        "start_time": "2026-12-12T20:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "The Wall Live House",
+        "address": null
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "Mock",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://example.org/mock/yuta-orisaka-2026-acoustic",
+        "status": "unknown",
+        "raw_sale_text": null
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 1800,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["Mock Source"],
+    "sources": [
+      {
+        "type": "other",
+        "name": "Mock crawler",
+        "url": "https://example.org/mock/yuta-orisaka-2026-acoustic",
+        "retrieved_at": "2026-04-29T18:19:34+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "mock",
+      "retrieved_at": "2026-04-29T18:19:34+08:00",
+      "raw_hash": "sha256-830348e2ba84040d06b4d07b1b0132e0b56064d1aaf6e88e939d3ad04f2e6d11",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  }
+]

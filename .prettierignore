@@ -1,6 +1,9 @@
 node_modules
 .next
+.venv
 out
 coverage
 japan_live_taiwan_readme_plan.md
 CRAWLER_PLAN.md
+pyproject.toml
+uv.lock

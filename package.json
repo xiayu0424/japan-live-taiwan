@@ -9,7 +9,10 @@
     "prepare": "husky",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
+    "test:crawler": "python -m uv run python -m unittest discover scripts/tests",
     "format:check": "prettier --check .",
+    "crawl:events": "python -m uv run python -m scripts.crawlers.run_all",
+    "validate:crawler": "python -m uv run python -m scripts.crawler_utils.validate_outputs",
     "validate:data": "tsx scripts/validate-data.ts"
   },
   "dependencies": {

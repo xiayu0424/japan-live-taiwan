@@ -1,0 +1,9 @@
+sources:
+  - id: mock
+    name: Mock crawler
+    enabled: true
+    type: mock
+    crawler: mock
+    base_url: "https://example.org"
+    list_urls:
+      - "https://example.org/mock-events"
