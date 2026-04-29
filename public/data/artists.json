@@ -88,5 +88,43 @@
     "country": "Japan",
     "artist_type": "vocaloid",
     "official_url": "https://example.org/artists/vocal-lattice"
+  },
+  {
+    "id": "the-rampage",
+    "name": "THE RAMPAGE",
+    "name_ja": "THE RAMPAGE from EXILE TRIBE",
+    "aliases": ["THE RAMPAGE", "THE RAMPAGE from EXILE TRIBE"],
+    "country": "Japan",
+    "artist_type": "jpop",
+    "official_url": "https://www.ldh.co.jp/management/rampage/"
+  },
+  {
+    "id": "yuta-orisaka",
+    "name": "折坂悠太",
+    "name_ja": "折坂悠太",
+    "name_en": "Yuta Orisaka",
+    "aliases": ["Yuta Orisaka", "Orisaka Yuta", "折坂悠太 Band"],
+    "country": "Japan",
+    "artist_type": "singer",
+    "official_url": "https://orisakayuta.jp/"
+  },
+  {
+    "id": "kaoru-miyazaki",
+    "name": "宮﨑薰",
+    "name_ja": "宮﨑薫",
+    "name_en": "Kaoru Miyazaki",
+    "aliases": ["Kaoru Miyazaki", "宮﨑薫", "宮崎薰"],
+    "country": "Japan",
+    "artist_type": "singer",
+    "official_url": "https://www.kaorumiyazaki.com/"
+  },
+  {
+    "id": "lisa",
+    "name": "LiSA",
+    "name_ja": "LiSA",
+    "aliases": ["LiSA"],
+    "country": "Japan",
+    "artist_type": "anisong",
+    "official_url": "https://www.lxixsxa.com/"
   }
 ]

@@ -52,5 +52,29 @@
     "address": "台中市西屯區安和路117號",
     "capacity": 1200,
     "official_url": "https://example.org/venues/legacy-taichung"
+  },
+  {
+    "id": "legacy-tera",
+    "name": "Legacy TERA",
+    "city": "Taipei",
+    "district": "南港區",
+    "address": "台北市南港區市民大道八段99號",
+    "official_url": "https://www.legacy.com.tw/"
+  },
+  {
+    "id": "the-wall-live-house",
+    "name": "The Wall Live House",
+    "city": "Taipei",
+    "district": "文山區",
+    "address": "台北市文山區羅斯福路四段200號B1",
+    "official_url": "https://thewall.tw/"
+  },
+  {
+    "id": "riverside-red-house",
+    "name": "河岸留言西門紅樓展演館",
+    "city": "Taipei",
+    "district": "萬華區",
+    "address": "台北市萬華區西寧南路177號",
+    "official_url": "https://www.riverside.com.tw/"
   }
 ]

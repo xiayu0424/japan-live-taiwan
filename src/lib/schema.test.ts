@@ -4,9 +4,9 @@ import { artistsSchema, eventsSchema, platformsSchema, venuesSchema } from "@/li
 
 describe("static data schemas", () => {
   it("validates the sample event catalog", () => {
-    expect(eventsSchema.parse(events)).toHaveLength(20);
-    expect(artistsSchema.parse(artists)).toHaveLength(10);
-    expect(venuesSchema.parse(venues)).toHaveLength(6);
+    expect(eventsSchema.parse(events)).toHaveLength(24);
+    expect(artistsSchema.parse(artists)).toHaveLength(14);
+    expect(venuesSchema.parse(venues)).toHaveLength(9);
     expect(platformsSchema.parse(platforms)).toHaveLength(5);
   });
 

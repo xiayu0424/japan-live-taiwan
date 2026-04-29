@@ -23,5 +23,30 @@
     "id": "anime-link",
     "name": "Anime Link",
     "official_url": "https://example.org/organizers/anime-link"
+  },
+  {
+    "id": "ldh-ai-meng-yue",
+    "name": "LDH 愛夢悅",
+    "official_url": "https://www.ldh.co.jp/"
+  },
+  {
+    "id": "romantic-office",
+    "name": "浪漫的工作室",
+    "official_url": "https://romanticoffice.kktix.cc/"
+  },
+  {
+    "id": "welcome-music",
+    "name": "Welcome Music",
+    "official_url": "https://welcome-music.kktix.cc/"
+  },
+  {
+    "id": "fun-entertainment",
+    "name": "好玩國際文化",
+    "official_url": "https://www.facebook.com/fun.entertainment.corp"
+  },
+  {
+    "id": "da-guo-culture",
+    "name": "大國文化",
+    "official_url": "https://www.facebook.com/DaGuoCulture"
   }
 ]

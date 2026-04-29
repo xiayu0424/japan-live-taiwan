@@ -880,5 +880,225 @@
     ],
     "created_at": "2026-04-29T12:00:00+08:00",
     "updated_at": "2026-04-29T12:00:00+08:00"
+  },
+  {
+    "id": "the-rampage-2025-taipei",
+    "title": "THE RAMPAGE LIVE TOUR 2025 PRIMAL SPIDER in TAIPEI",
+    "artist_ids": ["the-rampage"],
+    "tour_name": "PRIMAL SPIDER Borderless Threads",
+    "event_type": "concert",
+    "status": "ended",
+    "shows": [
+      {
+        "id": "the-rampage-2025-taipei-0720",
+        "date": "2025-07-20",
+        "start_time": "2025-07-20T18:00:00+08:00",
+        "doors_open_time": "2025-07-20T17:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "legacy-tera",
+        "venue_name": "Legacy TERA",
+        "address": "台北市南港區市民大道八段99號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2025-05-18T12:00:00+08:00",
+        "sale_end": null,
+        "ticket_url": "https://ldh.kktix.cc/events/the-rampage-2025",
+        "status": "ended",
+        "notes": "Official KKTIX page lists the event as a 2025-07-20 Taipei performance."
+      }
+    ],
+    "prices": [
+      { "label": "座位席", "price": 2980, "currency": "TWD" },
+      { "label": "身障席", "price": 1490, "currency": "TWD" }
+    ],
+    "organizers": ["LDH 愛夢悅"],
+    "official_url": "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000051123&site=TRIBE",
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "KKTIX",
+        "url": "https://ldh.kktix.cc/events/the-rampage-2025",
+        "retrieved_at": "2026-04-29T12:10:00+08:00"
+      },
+      {
+        "type": "artist_official",
+        "name": "LDH",
+        "url": "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000051123&site=TRIBE",
+        "retrieved_at": "2026-04-29T12:10:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:10:00+08:00",
+    "updated_at": "2026-04-29T12:10:00+08:00"
+  },
+  {
+    "id": "yuta-orisaka-band-2025-taipei",
+    "title": "折坂悠太 Band 台北公演 2025",
+    "artist_ids": ["yuta-orisaka"],
+    "event_type": "concert",
+    "status": "ended",
+    "shows": [
+      {
+        "id": "yuta-orisaka-band-2025-taipei-0615",
+        "date": "2025-06-15",
+        "start_time": "2025-06-15T20:00:00+08:00",
+        "doors_open_time": "2025-06-15T19:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "the-wall-live-house",
+        "venue_name": "The Wall Live House",
+        "address": "台北市文山區羅斯福路四段200號B1"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2025-05-07T12:00:00+08:00",
+        "sale_end": "2025-06-15T00:00:00+08:00",
+        "ticket_url": "https://romanticoffice.kktix.cc/events/yutaorisaka",
+        "status": "ended",
+        "notes": "Official KKTIX page lists advance and accessibility tickets."
+      }
+    ],
+    "prices": [
+      { "label": "預售票", "price": 1500, "currency": "TWD" },
+      { "label": "愛心票", "price": 750, "currency": "TWD" }
+    ],
+    "organizers": ["浪漫的工作室"],
+    "official_url": "https://romanticoffice.kktix.cc/events/yutaorisaka",
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "KKTIX",
+        "url": "https://romanticoffice.kktix.cc/events/yutaorisaka",
+        "retrieved_at": "2026-04-29T12:10:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:10:00+08:00",
+    "updated_at": "2026-04-29T12:10:00+08:00"
+  },
+  {
+    "id": "kaoru-miyazaki-2025-taipei",
+    "title": "KAORU MIYAZAKI LIVE TOUR 2025 IN TAIPEI",
+    "artist_ids": ["kaoru-miyazaki"],
+    "tour_name": "KAORU MIYAZAKI LIVE TOUR 2025",
+    "event_type": "concert",
+    "status": "postponed",
+    "shows": [
+      {
+        "id": "kaoru-miyazaki-2025-taipei-1220",
+        "date": "2025-12-20",
+        "start_time": "2025-12-20T18:00:00+08:00",
+        "doors_open_time": "2025-12-20T17:00:00+08:00",
+        "city": "Taipei",
+        "venue_id": "riverside-red-house",
+        "venue_name": "河岸留言西門紅樓展演館",
+        "address": "台北市萬華區西寧南路177號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "KKTIX",
+        "platform_id": "kktix",
+        "sale_start": "2025-10-18T12:00:00+08:00",
+        "sale_end": "2025-12-20T00:00:00+08:00",
+        "ticket_url": "https://welcome-music.kktix.cc/events/ogkrev",
+        "status": "postponed",
+        "notes": "KKTIX page announces postponement and refund process."
+      }
+    ],
+    "prices": [{ "label": "預售票", "price": 2800, "currency": "TWD" }],
+    "organizers": ["Welcome Music"],
+    "official_url": "https://www.kaorumiyazaki.com/",
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "KKTIX",
+        "url": "https://welcome-music.kktix.cc/events/ogkrev",
+        "retrieved_at": "2026-04-29T12:10:00+08:00"
+      },
+      {
+        "type": "artist_official",
+        "name": "Kaoru Miyazaki Official Website",
+        "url": "https://www.kaorumiyazaki.com/",
+        "retrieved_at": "2026-04-29T12:10:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:10:00+08:00",
+    "updated_at": "2026-04-29T12:10:00+08:00"
+  },
+  {
+    "id": "lisa-live-is-smile-always-15-2026-taipei",
+    "title": "LiSA LiVE is Smile Always～15～ in Taipei",
+    "artist_ids": ["lisa"],
+    "tour_name": "LiVE is Smile Always～15～",
+    "event_type": "anime_music",
+    "status": "announced",
+    "shows": [
+      {
+        "id": "lisa-live-is-smile-always-15-2026-taipei-0619",
+        "date": "2026-06-19",
+        "start_time": "2026-06-19T19:00:00+08:00",
+        "doors_open_time": "2026-06-19T17:30:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-arena",
+        "venue_name": "台北小巨蛋",
+        "address": "台北市松山區南京東路四段2號"
+      },
+      {
+        "id": "lisa-live-is-smile-always-15-2026-taipei-0620",
+        "date": "2026-06-20",
+        "start_time": "2026-06-20T17:00:00+08:00",
+        "doors_open_time": "2026-06-20T15:30:00+08:00",
+        "city": "Taipei",
+        "venue_id": "taipei-arena",
+        "venue_name": "台北小巨蛋",
+        "address": "台北市松山區南京東路四段2號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "lottery",
+        "platform": "Ticket Plus",
+        "platform_id": "ticket-plus",
+        "sale_start": "2026-02-05T12:00:00+08:00",
+        "sale_end": "2026-02-08T19:00:00+08:00",
+        "ticket_url": "https://ticketplus.com.tw/activity/c42d8d28d858c5ac4efa54360dbaf4db",
+        "status": "ended",
+        "notes": "Ticket Plus page requires JavaScript; Taipei Arena and Sony Music Artists pages confirm the event."
+      }
+    ],
+    "prices": [
+      { "label": "VIP", "price": 5280, "currency": "TWD" },
+      { "label": "一般票", "price": 4880, "currency": "TWD" },
+      { "label": "一般票", "price": 4280, "currency": "TWD" },
+      { "label": "一般票", "price": 3880, "currency": "TWD" },
+      { "label": "一般票", "price": 2880, "currency": "TWD" },
+      { "label": "一般票", "price": 800, "currency": "TWD" }
+    ],
+    "organizers": ["好玩國際文化", "大國文化"],
+    "official_url": "https://www.sma.co.jp/s/sma/news/detail/112664?ima=0000&link=ROBO004",
+    "sources": [
+      {
+        "type": "artist_official",
+        "name": "Sony Music Artists",
+        "url": "https://www.sma.co.jp/s/sma/news/detail/112664?ima=0000&link=ROBO004",
+        "retrieved_at": "2026-04-29T12:10:00+08:00"
+      },
+      {
+        "type": "organizer",
+        "name": "台北小巨蛋",
+        "url": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=D637DA6FC06545C6&sms=F9A95D3F5A5C2C68",
+        "retrieved_at": "2026-04-29T12:10:00+08:00"
+      }
+    ],
+    "created_at": "2026-04-29T12:10:00+08:00",
+    "updated_at": "2026-04-29T12:10:00+08:00"
   }
 ]

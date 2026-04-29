@@ -12,16 +12,17 @@ describe("statistics helpers", () => {
     expect(getMonthlyPerformanceCounts(events)).toEqual(
       expect.arrayContaining([
         { name: "2026-05", count: 1 },
-        { name: "2026-06", count: 4 },
+        { name: "2026-06", count: 6 },
+        { name: "2025-06", count: 1 },
       ]),
     );
   });
 
   it("counts ticket platforms and cities", () => {
-    expect(getPlatformCounts(events)[0]).toEqual({ name: "KKTIX", count: 6 });
+    expect(getPlatformCounts(events)[0]).toEqual({ name: "KKTIX", count: 9 });
     expect(getCityCounts(events)).toEqual(
       expect.arrayContaining([
-        { name: "Taipei", count: 10 },
+        { name: "Taipei", count: 15 },
         { name: "New Taipei", count: 4 },
       ]),
     );
@@ -31,7 +32,8 @@ describe("statistics helpers", () => {
     expect(getArtistTypeCounts(events, artists)).toEqual(
       expect.arrayContaining([
         { name: "band", count: 5 },
-        { name: "anisong", count: 3 },
+        { name: "anisong", count: 4 },
+        { name: "singer", count: 7 },
       ]),
     );
   });
