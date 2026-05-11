@@ -87,7 +87,7 @@ class MockCrawler(BaseCrawler):
             "organizers": ["Mock Source"],
             "sources": [
                 {
-                    "type": "other",
+                    "type": "official_ticket",
                     "name": "Mock crawler",
                     "url": source_url,
                     "retrieved_at": retrieved_at,

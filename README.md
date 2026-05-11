@@ -104,10 +104,11 @@ The crawler is intentionally review-first. It must not modify `events.json` dire
 
 Current crawler milestone:
 
-- `scripts/crawlers/mock.py` emits deterministic mock candidates.
+- `scripts/crawlers/kktix.py` crawls public KKTIX event pages into candidate records.
 - `scripts/crawler_utils/match_artist.py` matches candidate titles against `artists.json` aliases.
 - `scripts/crawler_utils/dedupe.py` marks likely duplicates against existing `events.json`.
 - `scripts/crawler_utils/schemas.py` validates crawler outputs with Pydantic.
+- `scripts/crawlers/mock.py` remains in the repo as a deterministic regression source and fixture reference.
 
 Run the pipeline:
 

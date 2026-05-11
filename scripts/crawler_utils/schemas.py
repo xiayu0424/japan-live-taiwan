@@ -17,12 +17,22 @@ class CandidateShow(BaseModel):
 
 
 class CandidateTicketSale(BaseModel):
-    type: str
+    type: Literal["general", "presale", "fanclub", "credit_card", "lottery", "other"]
     platform: str
     sale_start: str | None = None
     sale_end: str | None = None
     ticket_url: HttpUrl
-    status: str
+    status: Literal[
+        "announced",
+        "sale_soon",
+        "on_sale",
+        "sold_out",
+        "added_show",
+        "postponed",
+        "cancelled",
+        "ended",
+        "unknown",
+    ]
     raw_sale_text: str | None = None
 
 
@@ -33,7 +43,7 @@ class CandidatePrice(BaseModel):
 
 
 class CandidateSource(BaseModel):
-    type: str
+    type: Literal["official_ticket", "organizer", "artist_official", "news", "social", "other"]
     name: str
     url: HttpUrl
     retrieved_at: str
@@ -58,7 +68,7 @@ class Candidate(BaseModel):
     matched_artist_ids: list[str] = Field(default_factory=list)
     matched_artist_names: list[str] = Field(default_factory=list)
     match_confidence: float = 0
-    event_type: str
+    event_type: Literal["concert", "festival", "fanmeeting", "live_house", "anime_music", "other"]
     status: Literal["candidate"] = "candidate"
     shows: list[CandidateShow]
     ticket_sales: list[CandidateTicketSale]

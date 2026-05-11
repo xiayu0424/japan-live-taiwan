@@ -1,9 +1,20 @@
 sources:
   - id: mock
     name: Mock crawler
-    enabled: true
+    enabled: false
     type: mock
     crawler: mock
     base_url: "https://example.org"
     list_urls:
       - "https://example.org/mock-events"
+  - id: kktix
+    name: KKTIX
+    enabled: true
+    type: ticketing
+    crawler: kktix
+    base_url: "https://kktix.com"
+    max_events: 20
+    request_timeout_seconds: 15
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+    list_urls:
+      - "https://kktix.com/events"

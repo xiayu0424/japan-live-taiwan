@@ -11,6 +11,7 @@ from scripts.crawler_utils.io import DATA_DIR, ROOT, load_json, save_json
 from scripts.crawler_utils.match_artist import match_artists
 from scripts.crawler_utils.schemas import Candidate, CrawlerReport
 from scripts.crawlers.base import BaseCrawler
+from scripts.crawlers.kktix import KktixCrawler
 from scripts.crawlers.mock import MockCrawler
 
 CONFIG_PATH = ROOT / "scripts" / "configs" / "crawler_sources.yaml"
@@ -19,6 +20,7 @@ CANDIDATES_PATH = DATA_DIR / "candidates.json"
 CRAWLER_REPORT_PATH = DATA_DIR / "crawler_report.json"
 
 CRAWLER_REGISTRY: dict[str, type[BaseCrawler]] = {
+    "kktix": KktixCrawler,
     "mock": MockCrawler,
 }
 
