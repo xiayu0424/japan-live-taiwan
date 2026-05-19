@@ -4,6 +4,12 @@ sources:
     enabled: false
     type: mock
     crawler: mock
+    fetch_mode: static_data
+    requires_login: false
+    requires_cookie: false
+    requires_playwright: false
+    risk_level: low
+    notes: "Deterministic local source for pipeline validation."
     base_url: "https://example.org"
     list_urls:
       - "https://example.org/mock-events"
@@ -12,9 +18,31 @@ sources:
     enabled: true
     type: ticketing
     crawler: kktix
+    fetch_mode: html
+    requires_login: false
+    requires_cookie: false
+    requires_playwright: false
+    risk_level: low
+    notes: "Prefer public HTML and JSON-LD over internal APIs."
     base_url: "https://kktix.com"
     max_events: 20
     request_timeout_seconds: 15
     user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
     list_urls:
       - "https://kktix.com/events"
+  - id: ticketplus
+    name: Ticket Plus
+    enabled: true
+    type: ticketing
+    crawler: ticketplus
+    fetch_mode: public_json_api
+    requires_login: false
+    requires_cookie: false
+    requires_playwright: false
+    risk_level: medium
+    notes: "Use anonymous getS3 JSON endpoints only; do not touch queue, captcha, or purchase APIs."
+    activity_base_url: "https://ticketplus.com.tw/activity"
+    static_api_base_url: "https://apis.ticketplus.com.tw/config/api/v1"
+    max_events: 20
+    request_timeout_seconds: 15
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"

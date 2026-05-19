@@ -1,20 +1,27 @@
 {
-  "retrieved_at": "2026-04-29T18:19:34+08:00",
+  "retrieved_at": "2026-05-19T15:05:18+08:00",
   "summary": {
-    "total_sources": 1,
+    "total_sources": 2,
     "success_sources": 1,
-    "failed_sources": 0,
-    "total_candidates": 3,
-    "high_confidence_candidates": 3,
+    "failed_sources": 1,
+    "total_candidates": 30,
+    "high_confidence_candidates": 0,
     "medium_confidence_candidates": 0,
-    "low_confidence_candidates": 0,
+    "low_confidence_candidates": 30,
     "change_requests": 0
   },
   "sources": [
     {
-      "id": "mock",
+      "id": "kktix",
+      "status": "failed",
+      "candidate_count": 0,
+      "change_request_count": 0,
+      "error": "403 Client Error: Forbidden for url: https://kktix.com/events"
+    },
+    {
+      "id": "ticketplus",
       "status": "success",
-      "candidate_count": 3,
+      "candidate_count": 30,
       "change_request_count": 0,
       "error": null
     }

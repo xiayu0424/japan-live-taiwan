@@ -1,0 +1,24 @@
+{
+  "sessions": [
+    {
+      "sessionId": "s01",
+      "name": "Taipei Day 1",
+      "date": "2026-08-01",
+      "time": "19:30",
+      "location": "Zepp New Taipei",
+      "address": "新北市新莊區新北大道四段3號",
+      "hosts": "Welcome Music",
+      "hidden": false
+    },
+    {
+      "sessionId": "s02",
+      "name": "Taipei Day 2",
+      "date": "2026-08-02",
+      "time": "18:00",
+      "location": "Zepp New Taipei",
+      "address": "新北市新莊區新北大道四段3號",
+      "hosts": "Welcome Music",
+      "hidden": false
+    }
+  ]
+}

@@ -6,13 +6,14 @@ from datetime import datetime, timezone
 
 import yaml
 
-from scripts.crawler_utils.dedupe import mark_duplicates
+from scripts.crawler_utils.dedupe import split_candidates_and_change_requests
 from scripts.crawler_utils.io import DATA_DIR, ROOT, load_json, save_json
 from scripts.crawler_utils.match_artist import match_artists
-from scripts.crawler_utils.schemas import Candidate, CrawlerReport
+from scripts.crawler_utils.schemas import Candidate, ChangeRequest, CrawlerReport
 from scripts.crawlers.base import BaseCrawler
 from scripts.crawlers.kktix import KktixCrawler
 from scripts.crawlers.mock import MockCrawler
+from scripts.crawlers.ticketplus import TicketplusCrawler
 
 CONFIG_PATH = ROOT / "scripts" / "configs" / "crawler_sources.yaml"
 CHANGE_REQUESTS_PATH = DATA_DIR / "change_requests.json"
@@ -22,6 +23,7 @@ CRAWLER_REPORT_PATH = DATA_DIR / "crawler_report.json"
 CRAWLER_REGISTRY: dict[str, type[BaseCrawler]] = {
     "kktix": KktixCrawler,
     "mock": MockCrawler,
+    "ticketplus": TicketplusCrawler,
 }
 
 
@@ -50,16 +52,17 @@ def main() -> None:
         except Exception as exc:  # pragma: no cover - defensive report path
             report_sources.append(_source_report(source, "failed", 0, str(exc)))
 
-    deduped_candidates = mark_duplicates(all_candidates, existing_events)
-    change_requests: list[dict] = []
+    deduped_candidates, change_requests = split_candidates_and_change_requests(all_candidates, existing_events)
+    report_sources = _hydrate_source_counts(report_sources, deduped_candidates, change_requests)
     report = _build_report(retrieved_at, sources, report_sources, deduped_candidates, change_requests)
 
     CrawlerReport.model_validate(report)
+    [ChangeRequest.model_validate(item) for item in change_requests]
     save_json(CANDIDATES_PATH, deduped_candidates)
     save_json(CHANGE_REQUESTS_PATH, change_requests)
     save_json(CRAWLER_REPORT_PATH, report)
 
-    print(f"Generated {len(deduped_candidates)} candidates")
+    print(f"Generated {len(deduped_candidates)} candidates and {len(change_requests)} change requests")
 
 
 def _load_sources() -> list[dict]:
@@ -75,6 +78,29 @@ def _source_report(source: dict, status: str, candidate_count: int, error: str |
         "change_request_count": 0,
         "error": error,
     }
+
+
+def _hydrate_source_counts(report_sources: list[dict], candidates: list[dict], change_requests: list[dict]) -> list[dict]:
+    candidate_counts: dict[str, int] = {}
+    change_request_counts: dict[str, int] = {}
+
+    for candidate in candidates:
+        source_id = candidate.get("source_platform")
+        candidate_counts[source_id] = candidate_counts.get(source_id, 0) + 1
+
+    for change_request in change_requests:
+        source_id = change_request.get("source_platform")
+        change_request_counts[source_id] = change_request_counts.get(source_id, 0) + 1
+
+    hydrated_reports: list[dict] = []
+    for report in report_sources:
+        source_id = report["id"]
+        updated_report = dict(report)
+        updated_report["candidate_count"] = candidate_counts.get(source_id, 0)
+        updated_report["change_request_count"] = change_request_counts.get(source_id, 0)
+        hydrated_reports.append(updated_report)
+
+    return hydrated_reports
 
 
 def _build_report(

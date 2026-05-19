@@ -105,8 +105,9 @@ The crawler is intentionally review-first. It must not modify `events.json` dire
 Current crawler milestone:
 
 - `scripts/crawlers/kktix.py` crawls public KKTIX event pages into candidate records.
+- `scripts/crawlers/ticketplus.py` crawls Ticket Plus public JSON endpoints into candidate records.
 - `scripts/crawler_utils/match_artist.py` matches candidate titles against `artists.json` aliases.
-- `scripts/crawler_utils/dedupe.py` marks likely duplicates against existing `events.json`.
+- `scripts/crawler_utils/dedupe.py` splits likely duplicates and related updates into `change_requests.json`.
 - `scripts/crawler_utils/schemas.py` validates crawler outputs with Pydantic.
 - `scripts/crawlers/mock.py` remains in the repo as a deterministic regression source and fixture reference.
 
@@ -121,8 +122,21 @@ npm run test:crawler
 Generated files:
 
 - `public/data/candidates.json`: pending candidate events for manual review.
-- `public/data/change_requests.json`: pending change requests; currently empty in M1.
+- `public/data/change_requests.json`: pending updates or likely duplicates against existing `events.json`.
 - `public/data/crawler_report.json`: source status, candidate counts, and errors.
+
+Latest live crawl:
+
+- Executed on `2026-05-19`.
+- `ticketplus` succeeded and produced `30` candidates.
+- `kktix` currently returned HTTP `403` from `https://kktix.com/events`, so no KKTIX candidates were generated in that run.
+- `change_requests.json` was empty in that run because none of the generated Ticket Plus candidates matched current sample `events.json`.
+
+Current source configuration:
+
+- `ticketplus` is enabled by default.
+- `kktix` remains enabled, but may require fetch-strategy adjustments if the public list page keeps returning `403`.
+- `mock` stays disabled and is only used in tests.
 
 Crawler rules:
 
@@ -130,6 +144,7 @@ Crawler rules:
 - Do not queue, buy tickets, fill forms, or bypass CAPTCHA.
 - Do not high-frequency refresh ticketing pages.
 - Review every candidate manually before merging it into `events.json`.
+- Treat Ticket Plus status and price fields as heuristic parser output; confirm them against the source page during review.
 
 ## Deployment
 

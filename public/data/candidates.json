@@ -1,114 +1,61 @@
 [
   {
-    "candidate_id": "mock-2026-06-19-lisa-live-is-smile-always-15-in-taipei",
-    "source_platform": "mock",
-    "source_url": "https://example.org/mock/lisa-2026-taipei",
-    "title": "LiSA LiVE is Smile Always～15～ in Taipei",
-    "raw_title": "LiSA LiVE is Smile Always～15～ in Taipei",
-    "matched_artist_ids": ["lisa"],
-    "matched_artist_names": ["LiSA"],
-    "match_confidence": 100.0,
+    "candidate_id": "ticketplus:e877cbb17af0f9872c5ad335964cdfdc:e1df4fb395889e9648b9b8d215c46757",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/e877cbb17af0f9872c5ad335964cdfdc",
+    "title": "【2026 GMMTV Fan Day 31 in TAIPEI】TOP UP BENEFIT",
+    "raw_title": "【2026 GMMTV Fan Day 31 in TAIPEI】TOP UP BENEFIT",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
     "event_type": "concert",
     "status": "candidate",
     "shows": [
       {
-        "raw_date_text": "2026-06-19 19:00",
-        "date": "2026-06-19",
-        "start_time": "2026-06-19T19:00:00+08:00",
+        "raw_date_text": "2026-06-13 ~ 2026-06-13 13:00 ~ 13:00",
+        "date": "2026-06-13",
+        "start_time": "2026-06-13T13:00:00+08:00",
         "city": "Taipei",
-        "venue_name": "台北小巨蛋",
-        "address": null
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段3號8樓"
       }
     ],
     "ticket_sales": [
       {
         "type": "general",
-        "platform": "Mock",
+        "platform": "ticketplus",
         "sale_start": null,
         "sale_end": null,
-        "ticket_url": "https://example.org/mock/lisa-2026-taipei",
-        "status": "unknown",
-        "raw_sale_text": null
+        "ticket_url": "https://ticketplus.com.tw/activity/e877cbb17af0f9872c5ad335964cdfdc",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
       }
     ],
     "prices": [
       {
-        "label": "一般票",
-        "price": 5280,
+        "label": "[FB] FANSIGN 2:1",
+        "price": 4500,
+        "currency": "TWD"
+      },
+      {
+        "label": "[JD] FANSIGN 2:1",
+        "price": 4500,
         "currency": "TWD"
       }
     ],
-    "organizers": ["Mock Source"],
+    "organizers": ["SPOTLIVE Taiwan"],
     "sources": [
       {
-        "type": "other",
-        "name": "Mock crawler",
-        "url": "https://example.org/mock/lisa-2026-taipei",
-        "retrieved_at": "2026-04-29T18:19:34+08:00"
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/e877cbb17af0f9872c5ad335964cdfdc",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
       }
     ],
     "crawler_meta": {
-      "crawler_name": "mock",
-      "retrieved_at": "2026-04-29T18:19:34+08:00",
-      "raw_hash": "sha256-bcb7b0d856a41672ba74f74beb0642fd60d065f738da3473f7823ff104a6f6cc",
-      "is_duplicate": true,
-      "duplicate_event_id": "lisa-live-is-smile-always-15-2026-taipei",
-      "review_status": "pending",
-      "review_note": null
-    }
-  },
-  {
-    "candidate_id": "mock-2026-11-07-hikari-loop-summer-signal-2026-in-taipei",
-    "source_platform": "mock",
-    "source_url": "https://example.org/mock/hikari-loop-2026-summer",
-    "title": "Hikari Loop Summer Signal 2026 in Taipei",
-    "raw_title": "Hikari Loop Summer Signal 2026 in Taipei",
-    "matched_artist_ids": ["hikari-loop"],
-    "matched_artist_names": ["Hikari Loop"],
-    "match_confidence": 100.0,
-    "event_type": "concert",
-    "status": "candidate",
-    "shows": [
-      {
-        "raw_date_text": "2026-11-07 19:00",
-        "date": "2026-11-07",
-        "start_time": "2026-11-07T19:00:00+08:00",
-        "city": "Taipei",
-        "venue_name": "Legacy Taipei",
-        "address": null
-      }
-    ],
-    "ticket_sales": [
-      {
-        "type": "general",
-        "platform": "Mock",
-        "sale_start": null,
-        "sale_end": null,
-        "ticket_url": "https://example.org/mock/hikari-loop-2026-summer",
-        "status": "unknown",
-        "raw_sale_text": null
-      }
-    ],
-    "prices": [
-      {
-        "label": "一般票",
-        "price": 2400,
-        "currency": "TWD"
-      }
-    ],
-    "organizers": ["Mock Source"],
-    "sources": [
-      {
-        "type": "other",
-        "name": "Mock crawler",
-        "url": "https://example.org/mock/hikari-loop-2026-summer",
-        "retrieved_at": "2026-04-29T18:19:34+08:00"
-      }
-    ],
-    "crawler_meta": {
-      "crawler_name": "mock",
-      "retrieved_at": "2026-04-29T18:19:34+08:00",
-      "raw_hash": "sha256-5867f6ef67c7dc003b0c8f07dacd00cea0ebc4c10309a311355415c06de4e0e7",
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-3a5478bf4e7aaf20ed4106abc75dc4a9a5ebf75222ea705832c9f8103ceb9a57",
       "is_duplicate": false,
       "duplicate_event_id": null,
       "review_status": "pending",
@@ -116,35 +63,224 @@
     }
   },
   {
-    "candidate_id": "mock-2026-12-12-折坂悠太-acoustic-night-taipei",
-    "source_platform": "mock",
-    "source_url": "https://example.org/mock/yuta-orisaka-2026-acoustic",
-    "title": "折坂悠太 Acoustic Night Taipei",
-    "raw_title": "折坂悠太 Acoustic Night Taipei",
-    "matched_artist_ids": ["yuta-orisaka"],
-    "matched_artist_names": ["折坂悠太"],
-    "match_confidence": 100.0,
+    "candidate_id": "ticketplus:e877cbb17af0f9872c5ad335964cdfdc:139a51c3f8951fbbfe40fa65c917aa33",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/e877cbb17af0f9872c5ad335964cdfdc",
+    "title": "【2026 GMMTV Fan Day 31 in TAIPEI】TOP UP BENEFIT",
+    "raw_title": "【2026 GMMTV Fan Day 31 in TAIPEI】TOP UP BENEFIT",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
     "event_type": "concert",
     "status": "candidate",
     "shows": [
       {
-        "raw_date_text": "2026-12-12 20:00",
-        "date": "2026-12-12",
-        "start_time": "2026-12-12T20:00:00+08:00",
+        "raw_date_text": "2026-06-13 ~ 2026-06-13 19:00 ~ 19:00",
+        "date": "2026-06-13",
+        "start_time": "2026-06-13T19:00:00+08:00",
         "city": "Taipei",
-        "venue_name": "The Wall Live House",
-        "address": null
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段3號8樓"
       }
     ],
     "ticket_sales": [
       {
         "type": "general",
-        "platform": "Mock",
+        "platform": "ticketplus",
         "sale_start": null,
         "sale_end": null,
-        "ticket_url": "https://example.org/mock/yuta-orisaka-2026-acoustic",
-        "status": "unknown",
-        "raw_sale_text": null
+        "ticket_url": "https://ticketplus.com.tw/activity/e877cbb17af0f9872c5ad335964cdfdc",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "[FB] FANSIGN 2:1",
+        "price": 4500,
+        "currency": "TWD"
+      },
+      {
+        "label": "[JD] FANSIGN 2:1",
+        "price": 4500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["SPOTLIVE Taiwan"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/e877cbb17af0f9872c5ad335964cdfdc",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-921fcdfd555849cde018781a4cd97f6ffa14ff5af5fde5771b130d6ec108251c",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:9e0f0e4493c9494d06da3406fb7e4d18:e890ca0bc51681710754e23adfc227d5",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/9e0f0e4493c9494d06da3406fb7e4d18",
+    "title": "羅亦竣Looyee 《人耳普查 之 現場調查》",
+    "raw_title": "羅亦竣Looyee 《人耳普查 之 現場調查》",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-18 ~ 2026-06-18 19:30 ~ 21:00",
+        "date": "2026-06-18",
+        "start_time": "2026-06-18T19:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "女巫店",
+        "address": "台北市新生南路三段56巷7號1樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/9e0f0e4493c9494d06da3406fb7e4d18",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 500,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 250,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["女巫店"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/9e0f0e4493c9494d06da3406fb7e4d18",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-c2f81a027984c3832725531481f5538aa4327b9c794c85200a32debdc12c811e",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:d1b4147aaeaa2e233f0fdc827cd55310:155b513caf3d29b6716870b6d754912d",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/d1b4147aaeaa2e233f0fdc827cd55310",
+    "title": "The Omnific Asia Tour Live in Taipei",
+    "raw_title": "The Omnific Asia Tour Live in Taipei",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-09-29 ~ 2026-09-29 19:30 ~ 19:30",
+        "date": "2026-09-29",
+        "start_time": "2026-09-29T19:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "野地方 Wild Lab",
+        "address": "台北市中正區杭州南路一段147號B1"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/d1b4147aaeaa2e233f0fdc827cd55310",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "預售票",
+        "price": 1000,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["icon Promotions"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/d1b4147aaeaa2e233f0fdc827cd55310",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-590f2908e5a68b216f944975d6fd36c424584c78509f801a91e65d21e984d9cb",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:259450309841e3eec4d5f4038c9a3682:6e4ff662aa768fe9fbb2362bac6115c4",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+    "title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "raw_title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-31 ~ 2026-05-31 13:30 ~ 13:30",
+        "date": "2026-05-31",
+        "start_time": "2026-05-31T13:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "NU ZONE",
+        "address": "台北市市民大道三段198號2樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
       }
     ],
     "prices": [
@@ -152,21 +288,1686 @@
         "label": "一般票",
         "price": 1800,
         "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1500,
+        "currency": "TWD"
       }
     ],
-    "organizers": ["Mock Source"],
+    "organizers": ["RNR SQUARE TAIWAN"],
     "sources": [
       {
-        "type": "other",
-        "name": "Mock crawler",
-        "url": "https://example.org/mock/yuta-orisaka-2026-acoustic",
-        "retrieved_at": "2026-04-29T18:19:34+08:00"
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
       }
     ],
     "crawler_meta": {
-      "crawler_name": "mock",
-      "retrieved_at": "2026-04-29T18:19:34+08:00",
-      "raw_hash": "sha256-830348e2ba84040d06b4d07b1b0132e0b56064d1aaf6e88e939d3ad04f2e6d11",
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-4f31ba97125195e7a3da0d59e587ba88033b05d42f09ef7d248fb73e17fdde2a",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:259450309841e3eec4d5f4038c9a3682:ec3dfa8336c5f921eb85c5f5920e3a3b",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+    "title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "raw_title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-31 ~ 2026-05-31 13:30 ~ 13:30",
+        "date": "2026-05-31",
+        "start_time": "2026-05-31T13:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "NU ZONE",
+        "address": "台北市市民大道三段198號2樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 1800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["RNR SQUARE TAIWAN"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-b3a677f118e0e3326857f8008024cde82713af0748c491be7c949e0604c68471",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:259450309841e3eec4d5f4038c9a3682:bf9ccbbfdfc387eafc403606ab44064b",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+    "title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "raw_title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-31 ~ 2026-05-31 18:30 ~ 18:30",
+        "date": "2026-05-31",
+        "start_time": "2026-05-31T18:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "NU ZONE",
+        "address": "台北市市民大道三段198號2樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 1800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["RNR SQUARE TAIWAN"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-5829df471505dfcd1730dc16b6707c780df136f218c50c2b428ff437f1cf3cde",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:259450309841e3eec4d5f4038c9a3682:a343023ff9af5c3961c29d6a32fa13dd",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+    "title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "raw_title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-31 ~ 2026-05-31 18:30 ~ 18:30",
+        "date": "2026-05-31",
+        "start_time": "2026-05-31T18:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "NU ZONE",
+        "address": "台北市市民大道三段198號2樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 1800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["RNR SQUARE TAIWAN"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-6a87a638324ee7bd86061a93bb402fb19f55fb89db2a409b20e1a922f5474c60",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:259450309841e3eec4d5f4038c9a3682:7fe71922c462d3b71333078501bc6116",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+    "title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "raw_title": "2026 ZELO FAN CONCERT IN TAIPEI 特典會",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-31 ~ 2026-05-31 21:25 ~ 21:25",
+        "date": "2026-05-31",
+        "start_time": "2026-05-31T21:25:00+08:00",
+        "city": "Taipei",
+        "venue_name": "NU ZONE",
+        "address": "台北市市民大道三段198號2樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 1800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["RNR SQUARE TAIWAN"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/259450309841e3eec4d5f4038c9a3682",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-b03823380d824dff3376942bb7e24351721da510ec599dda4e08ff02b54bb8c6",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:c6858f695f5457afc79da88d3a6a4eba:04275b4dc17f9b36e934239796f17be4",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/c6858f695f5457afc79da88d3a6a4eba",
+    "title": "CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2026 in TAIPEI",
+    "raw_title": "CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2026 in TAIPEI",
+    "matched_artist_ids": ["the-rampage"],
+    "matched_artist_names": ["THE RAMPAGE"],
+    "match_confidence": 60.0,
+    "event_type": "festival",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-08-08 ~ 2026-08-08 18:00 ~ 18:00",
+        "date": "2026-08-08",
+        "start_time": "2026-08-08T18:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段 3 號 8 樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/c6858f695f5457afc79da88d3a6a4eba",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 3600,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2200,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1800,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["好玩專賣店 / CENTRAL 實行委員會"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/c6858f695f5457afc79da88d3a6a4eba",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-0a097c292a2d9af9e677747cabf95df69bb3ff2b99290d9b2b553cb61bdca0eb",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:b767f90ef9f546b3f7eded5755576cd6:4cd9fb9b34d23628bfd023b06638e4f9",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/b767f90ef9f546b3f7eded5755576cd6",
+    "title": "岡崎體育10週年巡演＂Zepp10 連單全押＂<台北水啦賞>",
+    "raw_title": "岡崎體育10週年巡演＂Zepp10 連單全押＂<台北水啦賞>",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "live_house",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-10-24 ~ 2026-10-24 18:00 ~ 18:00",
+        "date": "2026-10-24",
+        "start_time": "2026-10-24T18:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "Zepp New Taipei",
+        "address": "新北市新莊區新北大道四段3號8樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/b767f90ef9f546b3f7eded5755576cd6",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 2000,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 900,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["Sony Music Artists Inc. / H3 / FUN ENTERTAINMENT"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/b767f90ef9f546b3f7eded5755576cd6",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-482a8bf771175f1b631ce103bea40d2ba95ac04ea47529fdd9ca766c4accc579",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:df6725341392b2b21a32e85cb7c4fc21:bfb336b6a3e68b091b3710e9ec7ca60a",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/df6725341392b2b21a32e85cb7c4fc21",
+    "title": "心與草——福夢 FUMON Unplugged 巡演 台北場",
+    "raw_title": "心與草——福夢 FUMON Unplugged 巡演 台北場",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "live_house",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-25 ~ 2026-06-25 19:00 ~ 19:00",
+        "date": "2026-06-25",
+        "start_time": "2026-06-25T19:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "THE WALL LIVE HOUSE",
+        "address": "台北市文山區萬年里羅斯福路四段200號"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/df6725341392b2b21a32e85cb7c4fc21",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "雙人票",
+        "price": 900,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1000,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["形上娛樂有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/df6725341392b2b21a32e85cb7c4fc21",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-6c428feff685dca3e5a76b897a4cc22340b7aff4cdfcb713e3139cfd3e97d915",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:709613caae092aa30fdf312c30474be6:c1bc930aa66a45b0379d205feb1f6dfd",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/709613caae092aa30fdf312c30474be6",
+    "title": "心與草——福夢 FUMON Unplugged 巡演 台南場",
+    "raw_title": "心與草——福夢 FUMON Unplugged 巡演 台南場",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "live_house",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-21 ~ 2026-06-21 19:00 ~ 19:00",
+        "date": "2026-06-21",
+        "start_time": "2026-06-21T19:00:00+08:00",
+        "city": "Tainan",
+        "venue_name": "台南 漂丿 Live House",
+        "address": "台南市東區成大里北門路二段16號1b室"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/709613caae092aa30fdf312c30474be6",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "雙人票",
+        "price": 900,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1000,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["形上娛樂有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/709613caae092aa30fdf312c30474be6",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-5689cbb81d93761e5d88f34844835ba87436b12b4590617e33839b1b86b3a51b",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:b0f3232118991a75989a46c279f5ceb0:1d1fbd54ebc34af56e91385f19b7ca53",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/b0f3232118991a75989a46c279f5ceb0",
+    "title": "春日懸浮《夏日懸浮》",
+    "raw_title": "春日懸浮《夏日懸浮》",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-27 ~ 2026-06-27 19:30 ~ 21:00",
+        "date": "2026-06-27",
+        "start_time": "2026-06-27T19:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "女巫店",
+        "address": "台北市新生南路三段56巷7號1樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/b0f3232118991a75989a46c279f5ceb0",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 500,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 250,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["女巫店"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/b0f3232118991a75989a46c279f5ceb0",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-c95526977b29e34f534db173c1073028e9ad8367b41e368dfe6935851ca5ab4a",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:8fa8d1c0ae41160e60de20470b03b5b9:44edc832cd9e6294aedbea2d6ba2db9d",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/8fa8d1c0ae41160e60de20470b03b5b9",
+    "title": "波羅密・Borome《春展》with MoonD’shake",
+    "raw_title": "波羅密・Borome《春展》with MoonD’shake",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-12 ~ 2026-06-12 19:30 ~ 21:00",
+        "date": "2026-06-12",
+        "start_time": "2026-06-12T19:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "女巫店",
+        "address": "台北市新生南路三段56巷7號1樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/8fa8d1c0ae41160e60de20470b03b5b9",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 550,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 275,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["女巫店"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/8fa8d1c0ae41160e60de20470b03b5b9",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-078b6797e222b70654643280c50a936867e1582e488af6acb04ea4e0defd7c41",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:6febf5cdd53fd62d315a6c493f592f7a:04bac32973d002e738ec167e5f1e51da",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/6febf5cdd53fd62d315a6c493f592f7a",
+    "title": "2026 HAN SEUNG WOO FAN-CON TOUR [MY W∞RLD] in TAIPEI",
+    "raw_title": "2026 HAN SEUNG WOO FAN-CON TOUR [MY W∞RLD] in TAIPEI",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-07-11 ~ 2026-07-11 13:00 ~ 13:00",
+        "date": "2026-07-11",
+        "start_time": "2026-07-11T13:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "CLAPPER STUDIO",
+        "address": "臺北市中正區市民大道三段2號5樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/6febf5cdd53fd62d315a6c493f592f7a",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 4880,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 3480,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2440,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["REDSLIPPERS inc. / RNR SQUARE TAIWAN"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/6febf5cdd53fd62d315a6c493f592f7a",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-429323e8da8e2ac58127728caafc6cc375354d2e2347385136713ab4c70938f9",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:6febf5cdd53fd62d315a6c493f592f7a:9b007ba0755ea4f76e81bc58cfd29cbd",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/6febf5cdd53fd62d315a6c493f592f7a",
+    "title": "2026 HAN SEUNG WOO FAN-CON TOUR [MY W∞RLD] in TAIPEI",
+    "raw_title": "2026 HAN SEUNG WOO FAN-CON TOUR [MY W∞RLD] in TAIPEI",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-07-11 ~ 2026-07-11 18:00 ~ 18:00",
+        "date": "2026-07-11",
+        "start_time": "2026-07-11T18:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "CLAPPER STUDIO",
+        "address": "臺北市中正區市民大道三段2號5樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/6febf5cdd53fd62d315a6c493f592f7a",
+        "status": "sold_out",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 4880,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 3480,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2440,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["REDSLIPPERS inc. / RNR SQUARE TAIWAN"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/6febf5cdd53fd62d315a6c493f592f7a",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-08dbe807875ad1c1de96d910cfc01ff737704d32b8260e383643580ac4cc1a15",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:aef9013a02f6f80c640c614864216afe:fae2e222a807984ad8209bac6fcb21a4",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/aef9013a02f6f80c640c614864216afe",
+    "title": "又不是我的錯！ana x Rondy x 以捷",
+    "raw_title": "又不是我的錯！ana x Rondy x 以捷",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-11 ~ 2026-06-11 19:30 ~ 21:00",
+        "date": "2026-06-11",
+        "start_time": "2026-06-11T19:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "女巫店",
+        "address": "台北市新生南路三段56巷7號1樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/aef9013a02f6f80c640c614864216afe",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 500,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 250,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["女巫店"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/aef9013a02f6f80c640c614864216afe",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-332df57b721e0bf4f0cd62ddfd40b27e7c2875107a2b803038b940cd812888ab",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:7e747b72edd12542f878bc8bbd54f75d:5e7c7079ad6449c78604131cb1425c00",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/7e747b72edd12542f878bc8bbd54f75d",
+    "title": "《向流星許願的我們》Final Wish終映會・福利加購",
+    "raw_title": "《向流星許願的我們》Final Wish終映會・福利加購",
+    "matched_artist_ids": ["lisa"],
+    "matched_artist_names": ["LiSA"],
+    "match_confidence": 75.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-31 ~ 2026-05-31 13:00 ~ 13:00",
+        "date": "2026-05-31",
+        "start_time": "2026-05-31T13:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "真善美劇院 7F藝術廳",
+        "address": "臺北市萬華區漢中街116號7樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/7e747b72edd12542f878bc8bbd54f75d",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 999,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["有意思國際傳媒有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/7e747b72edd12542f878bc8bbd54f75d",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-9cf3e356dc4fb1a1f7e70484792fb492fdf047a27a22565817cf1faaa09c60b1",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:88fe42744f4200335f9b6965183e92be:bc80f5fe3503a676c365be40d59aae83",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/88fe42744f4200335f9b6965183e92be",
+    "title": "《向流星許願的我們》Final Wish終映會",
+    "raw_title": "《向流星許願的我們》Final Wish終映會",
+    "matched_artist_ids": ["lisa"],
+    "matched_artist_names": ["LiSA"],
+    "match_confidence": 75.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-31 ~ 2026-05-31 13:00 ~ 13:00",
+        "date": "2026-05-31",
+        "start_time": "2026-05-31T13:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "真善美劇院 7F藝術廳",
+        "address": "臺北市萬華區漢中街116號7樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/88fe42744f4200335f9b6965183e92be",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 2780,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2380,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 1390,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 999,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["有意思國際傳媒有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/88fe42744f4200335f9b6965183e92be",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-153bad967ccc24b4da270027a36e70075bd142972bf6bbbf64db3e1903753f13",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:dd245f0210985ec16a62e87212366b38:71ba0272be8d9458e2a129b7288f6fb7",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+    "title": "Moi dix Mois Live in Taipei 2026 with Kaya 〜Compagnon de route〜",
+    "raw_title": "Moi dix Mois Live in Taipei 2026 with Kaya 〜Compagnon de route〜",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "live_house",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-10-24 ~ 2026-10-25 19:00 ~ 18:30",
+        "date": "2026-10-24",
+        "start_time": "2026-10-24T19:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "這牆音樂展演空間",
+        "address": "台北市羅斯福路四段200號B1"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 7500,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 3800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 4000,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2200,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["樂窟音樂"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-aa65313b06023ecd9bbc13ff4fc241eba7a5f6830d092a320d84cb9875782fc9",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:dd245f0210985ec16a62e87212366b38:de0f7649827548168e53e1c9e0416204",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+    "title": "Moi dix Mois Live in Taipei 2026 with Kaya 〜Compagnon de route〜",
+    "raw_title": "Moi dix Mois Live in Taipei 2026 with Kaya 〜Compagnon de route〜",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "live_house",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-10-24 ~ 2026-10-24 19:00 ~ 19:00",
+        "date": "2026-10-24",
+        "start_time": "2026-10-24T19:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "這牆音樂展演空間",
+        "address": "台北市羅斯福路四段200號B1"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 7500,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 3800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 4000,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2200,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["樂窟音樂"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-4dc66ee63dc2337569104978424f649897d1b1cd8dbe50f4308391c6eee29d93",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:dd245f0210985ec16a62e87212366b38:bac5ef491c23b0d41f818f743adfdf9c",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+    "title": "Moi dix Mois Live in Taipei 2026 with Kaya 〜Compagnon de route〜",
+    "raw_title": "Moi dix Mois Live in Taipei 2026 with Kaya 〜Compagnon de route〜",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "live_house",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-10-25 ~ 2026-10-25 18:30 ~ 18:30",
+        "date": "2026-10-25",
+        "start_time": "2026-10-25T18:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "這牆音樂展演空間",
+        "address": "台北市羅斯福路四段200號B1"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 7500,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 3800,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 4000,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2200,
+        "currency": "TWD"
+      },
+      {
+        "label": "一般票",
+        "price": 2500,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["樂窟音樂"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/dd245f0210985ec16a62e87212366b38",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-336cdffcb2623676c2a2510712b1aff212940247527df708227cd516abfe8bcc",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:c2a42a7cf52662d1bda0b760081cd131:def19c559f56336b4488c04594294262",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/c2a42a7cf52662d1bda0b760081cd131",
+    "title": "HAKU 2026 生日音樂會《微光》",
+    "raw_title": "HAKU 2026 生日音樂會《微光》",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-24 ~ 2026-05-24 18:30 ~ 18:30",
+        "date": "2026-05-24",
+        "start_time": "2026-05-24T18:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "凝聚力展演空間",
+        "address": "台北市松山區八德路三段106巷1號B1"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/c2a42a7cf52662d1bda0b760081cd131",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 1450,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["Dolfan"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/c2a42a7cf52662d1bda0b760081cd131",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-77795e5d5623e0d0f6d0088e45f2e5b9ce55c183f16dfb35332a4fb0f9d0591c",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:df4921f304ed6db3822984e84463c396:8a87f4ac12d0a11877344c175764586d",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/df4921f304ed6db3822984e84463c396",
+    "title": "VERA 學文 2026 生日音樂會",
+    "raw_title": "VERA 學文 2026 生日音樂會",
+    "matched_artist_ids": [],
+    "matched_artist_names": [],
+    "match_confidence": 0.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-05-24 ~ 2026-05-24 13:00 ~ 13:00",
+        "date": "2026-05-24",
+        "start_time": "2026-05-24T13:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "凝聚力展演空間",
+        "address": "台北市松山區八德路三段106巷1號B1"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/df4921f304ed6db3822984e84463c396",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "一般票",
+        "price": 1450,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["Dolfan"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/df4921f304ed6db3822984e84463c396",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-7287d0ca35e81a1c7b853e5ba80215de2501bac87707961af8183ef97f798e59",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:8c4b8c23e53b3f0f9b84862431c6166c:a2a54a03513e9a201297caf651bece5b",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/8c4b8c23e53b3f0f9b84862431c6166c",
+    "title": "sulysalt & XuanXuan",
+    "raw_title": "sulysalt & XuanXuan",
+    "matched_artist_ids": ["lisa"],
+    "matched_artist_names": ["LiSA"],
+    "match_confidence": 75.0,
+    "event_type": "concert",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-06-20 ~ 2026-06-20 19:30 ~ 21:00",
+        "date": "2026-06-20",
+        "start_time": "2026-06-20T19:30:00+08:00",
+        "city": "Taipei",
+        "venue_name": "女巫店",
+        "address": "台北市新生南路三段56巷7號1樓"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/8c4b8c23e53b3f0f9b84862431c6166c",
+        "status": "sale_soon",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 600,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 300,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["女巫店"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/8c4b8c23e53b3f0f9b84862431c6166c",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-dd806cc5b994b75df0e37edd787b27fd0d41f4c32da43d7d4a0dce9ab1e368a6",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:d6fdcecc257602722ed8e6ecdbc1ad80:a3a8941bd8f77eeead233d294d028196",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+    "title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "raw_title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "matched_artist_ids": ["rin-kazuki"],
+    "matched_artist_names": ["Rin Kazuki"],
+    "match_confidence": 61.54,
+    "event_type": "fanmeeting",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-08-02 ~ 2026-08-02 13:00 ~ 13:00",
+        "date": "2026-08-02",
+        "start_time": "2026-08-02T13:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "三創生活園區 Clapper Studio",
+        "address": "台北市中正區市民大道三段2號5F"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 3680,
+        "currency": "TWD"
+      },
+      {
+        "label": "全票",
+        "price": 3280,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 1640,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["重星音樂娛樂有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-ca54c7346825f63afcc1c734d09330fc5231b3b66d9f584535be1ee8bbb9fc37",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:d6fdcecc257602722ed8e6ecdbc1ad80:8dc503513c17179889416d0f27d434b7",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+    "title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "raw_title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "matched_artist_ids": ["rin-kazuki"],
+    "matched_artist_names": ["Rin Kazuki"],
+    "match_confidence": 61.54,
+    "event_type": "fanmeeting",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-08-02 ~ 2026-08-02 13:00 ~ 13:00",
+        "date": "2026-08-02",
+        "start_time": "2026-08-02T13:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "三創生活園區 Clapper Studio",
+        "address": "台北市中正區市民大道三段2號5F"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 3680,
+        "currency": "TWD"
+      },
+      {
+        "label": "全票",
+        "price": 3280,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 1640,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["重星音樂娛樂有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-cd9172b814283c00f2ddb5f87f1e4ca65f71bf7056e7516de3ddf98b959f8964",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:d6fdcecc257602722ed8e6ecdbc1ad80:07f9a489900c243ca6d36a37bc22cfeb",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+    "title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "raw_title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "matched_artist_ids": ["rin-kazuki"],
+    "matched_artist_names": ["Rin Kazuki"],
+    "match_confidence": 61.54,
+    "event_type": "fanmeeting",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-08-02 ~ 2026-08-02 17:00 ~ 17:00",
+        "date": "2026-08-02",
+        "start_time": "2026-08-02T17:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "三創生活園區 Clapper Studio",
+        "address": "台北市中正區市民大道三段2號5F"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 3680,
+        "currency": "TWD"
+      },
+      {
+        "label": "全票",
+        "price": 3280,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 1640,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["重星音樂娛樂有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-e84d4e0efe76055fe313364b18ce9a000ff496bb99fa8dfddd0c35c3d706a21a",
+      "is_duplicate": false,
+      "duplicate_event_id": null,
+      "review_status": "pending",
+      "review_note": null
+    }
+  },
+  {
+    "candidate_id": "ticketplus:d6fdcecc257602722ed8e6ecdbc1ad80:d0c1b7a0165b92b3d1afe649cc13bc69",
+    "source_platform": "ticketplus",
+    "source_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+    "title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "raw_title": "Riku Hagiwara ASIA Fan Meeting Tour 2026 in TAIPEI",
+    "matched_artist_ids": ["rin-kazuki"],
+    "matched_artist_names": ["Rin Kazuki"],
+    "match_confidence": 61.54,
+    "event_type": "fanmeeting",
+    "status": "candidate",
+    "shows": [
+      {
+        "raw_date_text": "2026-08-02 ~ 2026-08-02 17:00 ~ 17:00",
+        "date": "2026-08-02",
+        "start_time": "2026-08-02T17:00:00+08:00",
+        "city": "Taipei",
+        "venue_name": "三創生活園區 Clapper Studio",
+        "address": "台北市中正區市民大道三段2號5F"
+      }
+    ],
+    "ticket_sales": [
+      {
+        "type": "general",
+        "platform": "ticketplus",
+        "sale_start": null,
+        "sale_end": null,
+        "ticket_url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "status": "cancelled",
+        "raw_sale_text": "，若訂單付款狀態顯示為「待繳費」，須等待銀行回傳付款狀態；若逾期未付款，系統收到銀行回傳付款狀態後將自動取消該筆訂單並顯示「付款失敗」，會員帳號之購票額度將於訂單取消之後釋出，各家銀行轉帳入帳時間不同，請盡早繳款以保障您的權益。"
+      }
+    ],
+    "prices": [
+      {
+        "label": "全票",
+        "price": 3680,
+        "currency": "TWD"
+      },
+      {
+        "label": "全票",
+        "price": 3280,
+        "currency": "TWD"
+      },
+      {
+        "label": "身障票",
+        "price": 1640,
+        "currency": "TWD"
+      }
+    ],
+    "organizers": ["重星音樂娛樂有限公司"],
+    "sources": [
+      {
+        "type": "official_ticket",
+        "name": "Ticket Plus",
+        "url": "https://ticketplus.com.tw/activity/d6fdcecc257602722ed8e6ecdbc1ad80",
+        "retrieved_at": "2026-05-19T15:05:19+08:00"
+      }
+    ],
+    "crawler_meta": {
+      "crawler_name": "ticketplus",
+      "retrieved_at": "2026-05-19T15:05:19+08:00",
+      "raw_hash": "sha256-30c2fcfb0ee125f457ecdd15721b3b9b37078d62b2b4e43d3110458e278e6c75",
       "is_duplicate": false,
       "duplicate_event_id": null,
       "review_status": "pending",
